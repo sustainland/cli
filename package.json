@@ -1,0 +1,29 @@
+{
+  "name": "@sustain/cli",
+  "version": "0.1.0",
+  "description": "The Sustain CLI helps you create new sustain app, run or even generate controllers and entites.",
+  "main": "dist/index.js",
+  "scripts": {
+    "start": "tsnd",
+    "build": "tsc",
+    "build-watch": "tsc -w --noImplicitAny",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "sustain": "dist/index.js"
+  },
+  "devDependencies": {
+    "typescript": "3.3.3"
+  },
+  "author": "Labidi Aymen",
+  "license": "ISC",
+  "dependencies": {
+    "@types/node": "^14.0.20",
+    "colors": "^1.4.0",
+    "commander": "^5.1.0",
+    "degit": "^2.8.0",
+    "node-color-log": "^3.0.2",
+    "ts-node-dev": "^1.0.0-pre.51",
+    "update-notifier": "^4.1.0"
+  }
+}
