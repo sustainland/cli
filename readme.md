@@ -18,6 +18,7 @@ The Sustain CLI helps you create new sustain app, run or even generate controlle
 
 ```sh
 npm install -g @sustain/cli
+
 sustain new rest-app
 
 ```

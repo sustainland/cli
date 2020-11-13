@@ -5,15 +5,13 @@
   "main": "dist/index.js",
   "scripts": {
     "start": "tsnd",
+    "debug": "tsnd --debug",
     "build": "tsc",
     "build-watch": "tsc -w --noImplicitAny",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "bin": {
     "sustain": "dist/index.js"
-  },
-  "devDependencies": {
-    "typescript": "3.3.3"
   },
   "author": "Labidi Aymen",
   "license": "ISC",
@@ -24,6 +22,7 @@
     "degit": "^2.8.0",
     "node-color-log": "^3.0.2",
     "ts-node-dev": "^1.0.0-pre.51",
-    "update-notifier": "^4.1.0"
+    "update-notifier": "^4.1.0",
+    "typescript": "3.3.3"
   }
 }
