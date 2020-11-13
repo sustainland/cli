@@ -16,13 +16,13 @@
   "author": "Labidi Aymen",
   "license": "ISC",
   "dependencies": {
-    "@types/node": "^14.0.20",
+    "@types/node": "^14.14.7",
     "colors": "^1.4.0",
-    "commander": "^5.1.0",
+    "commander": "^6.2.0",
     "degit": "^2.8.0",
-    "node-color-log": "^3.0.2",
-    "ts-node-dev": "^1.0.0-pre.51",
-    "update-notifier": "^4.1.0",
-    "typescript": "3.3.3"
+    "node-color-log": "^5.2.0",
+    "ts-node-dev": "^1.0.0",
+    "update-notifier": "^5.0.1",
+    "typescript": "4.0.5"
   }
 }
