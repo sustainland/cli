@@ -23,12 +23,12 @@ program
     })
 program
     .command('new <name>')
-    .option('-t, --template_type <template>', 'template to be initialized', 'blank')
+    .option('-t, --template <template>', 'template to be initialized', 'blank')
     .action(function (folderName, options) {
-        const { template_type } = options;
-        console.log(`sustainland/sustain/samples/${template_type}`)
+        const { template } = options;
+        console.log(`sustainland/sustain/samples/${template}`)
         const childProcess = spawn(/^win/.test(process.platform) ? 'npx.cmd' : 'npx',
-            ['degit', `sustainland/sustain/samples/${template_type}`, folderName],
+            ['degit', `sustainland/sustain/samples/${template}`, folderName],
             { stdio: [process.stdin, process.stdout, process.stderr] });
         childProcess.on('error', function (err) { throw err })
         childProcess.on('exit', function (error) {
