@@ -1,6 +1,6 @@
 {
   "name": "@sustain/cli",
-  "version": "0.5.0",
+  "version": "0.6.0",
   "description": "The Sustain CLI helps you create new sustain app, run or even generate controllers and entites.",
   "main": "dist/index.js",
   "scripts": {
